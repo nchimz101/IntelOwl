@@ -95,3 +95,4 @@ pyzipper==0.3.6
 
 #others
 dateparser==1.2.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
