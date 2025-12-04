@@ -1,5 +1,5 @@
 # django libs
-Django==4.2.15
+Django==4.2.27
 psycopg2-binary==2.9.6
 django-auth-ldap==4.8.0
 django-radius==1.5.0
@@ -95,3 +95,4 @@ pyzipper==0.3.6
 
 #others
 dateparser==1.2.0
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
